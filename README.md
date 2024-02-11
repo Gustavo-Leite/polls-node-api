@@ -32,6 +32,10 @@ npm install
 
 #### Rename the ".env.example" file in the root to ".env"
 
+```bash
+mv .env.example .env
+```
+
 #### Make sure you have Docker installed on your system. If not, follow the installation instructions on the [official Docker website](https://www.docker.com/get-started/). After installing Docker, start the Docker environment:
 
 ```bash
@@ -50,7 +54,6 @@ prisma migrate dev
 #### After configuring the database, you can start the application server:
 
 ```bash
-# watch mode
 npm run dev
 ```
 
