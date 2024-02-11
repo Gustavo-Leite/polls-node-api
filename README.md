@@ -126,6 +126,3 @@ Put this json in the body of the request.
 	"pollOptionId": "(option_id)"
 }
 ```
-
-</body>
-</html>
